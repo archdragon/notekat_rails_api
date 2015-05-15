@@ -34,4 +34,5 @@ group :development, :test do
   gem 'rack-mini-profiler'
   gem 'factory_girl'
   gem 'database_cleaner'
+  gem 'capybara'
 end
