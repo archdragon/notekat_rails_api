@@ -1,7 +1,7 @@
 require 'arch_presenter'
 require 'factory_girl'
 
-folders = ['models', 'services', 'forms', 'presenters']
+folders = ['values', 'models', 'services', 'forms', 'presenters']
 
 Dir[__dir__ + '/../lib/**/*.rb'].each {|file| require file }
 
